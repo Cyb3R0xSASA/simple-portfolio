@@ -1,7 +1,7 @@
 const card = (id, title, imageSrc, date, description) => {
     return `
     <div class="project__card">
-        <img src="/image/${imageSrc}" alt="${title}" class="project__card--image">
+        <img src="image/${imageSrc}" alt="${title}" class="project__card--image">
         <div class="card__info">
             <h5>${title}</h5>
             <p>${date}</p>
